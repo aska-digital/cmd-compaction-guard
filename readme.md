@@ -9,7 +9,7 @@ The guard reads the transcript after each compaction and warns while the session
 ## Install
 
 ```bash
-cmd mods add ahrazzle/cmd-compaction-guard
+cmd mods add aska-digital/cmd-compaction-guard
 ```
 
 Or drop the files in `~/.commandcode/mods/`.
