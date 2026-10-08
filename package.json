@@ -1,0 +1,9 @@
+{
+	"name": "cmd-compaction-guard",
+	"version": "0.1.0",
+	"description": "Detects compaction-summary bloat in session transcripts (stacked summaries that compound until context explodes and every request 400s) and repairs it on demand with /compact-repair.",
+	"license": "MIT",
+	"commandcode": {
+		"mods": ["./index.ts"]
+	}
+}
